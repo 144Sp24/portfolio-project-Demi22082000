@@ -1,0 +1,176 @@
+/*
+Author: Demi van Run
+Date: 7-2-2024
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #d1e0d3;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for header */
+header {
+    padding: 3% 5%;
+    color: #87b58f;
+    background-color: #0d2f0c;
+    height: 120px;
+}
+
+#title {
+    padding: 2% 1%;
+    text-align: center;
+}
+
+#picture {
+    float: left;
+    overflow: hidden;
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+
+}
+
+#SelfPortrait {
+    max-width: 150%;
+    margin: 50% 50%;
+    translate: -50% -50%;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #0d2f0c;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: 800;
+}
+
+nav li a {
+    display: block;
+    color: #87b58f;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+nav li a:hover,
+footer a:hover {
+    color: #14a51e;
+}
+
+/* Style rules for main content */
+main {
+    text-align: center;
+    padding: 4% 0;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+    font-size: 1em;
+}
+
+main p a {
+    text-decoration: none;
+    color: #14a51e;
+    font-weight: 700;
+}
+
+main p a:hover {
+    color: #0d2f0c;
+}
+
+#photo-about {
+    float: left;
+    overflow: hidden;
+    width: 20em;
+    height: 20em;
+    margin: 2% 8%;
+}
+
+#photo-about img {
+    max-width: 150%;
+    margin: 50% 50%;
+    translate: -50% -50%;
+}
+
+#sec {
+    padding: 0 30%;
+}
+
+#section1 {
+    width: 40%;
+    margin: 4% 8%;
+    float: left;
+}
+
+#section2 {
+    text-align: left;
+    padding-top: 2%;
+    margin: 3% 15%;
+    display: block;
+    clear: left;
+}
+
+#contact {
+    margin: 0 0;
+}
+
+#contact p {
+    word-spacing: 0.8em;
+    line-height: 2em;
+    margin: 2em 0 10em 0;
+}
+
+#contact p iframe {
+    margin: 2em 0 0 0;
+}
+
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    background-color: #0d2f0c;
+    color: #87b58f;
+    padding: 1.5% 0;
+}
+
+footer a {
+    margin: 0 2%;
+    font-weight: bold;
+    color: #87b58f;
+    text-decoration: none;
+}
