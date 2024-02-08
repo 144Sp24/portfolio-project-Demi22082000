@@ -53,7 +53,7 @@ header {
 #SelfPortrait {
     max-width: 150%;
     margin: 50% 50%;
-    translate: -50% -50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Style rules for navigation area */
@@ -123,7 +123,7 @@ main p a:hover {
 #photo-about img {
     max-width: 150%;
     margin: 50% 50%;
-    translate: -50% -50%;
+    transform: translate(-50%, -50%);
 }
 
 #sec {
