@@ -28,12 +28,24 @@ img {
     display: block;
 }
 
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
 /* Style rules for header */
 header {
     padding: 3% 5%;
     color: #87b58f;
     background-color: #0d2f0c;
-    height: 120px;
+    height: 100px;
 }
 
 #title {
@@ -42,7 +54,7 @@ header {
 }
 
 #picture {
-    float: left;
+
     overflow: hidden;
     width: 7em;
     height: 7em;
@@ -59,14 +71,38 @@ header {
 /* Style rules for navigation area */
 nav {
     background-color: #0d2f0c;
-    padding: 1em 0;
-    position: sticky;
+    padding: 0;
+
     top: 0;
     left: 0;
     z-index: 1;
 }
 
 nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    border-top: 1px solid #87b58f;
+    display: block;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: 800;
+}
+
+nav li a {
+    display: block;
+    color: #87b58f;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    margin: 0%;
+}
+
+
+/* nav ul {
     list-style-type: none;
     margin: 0;
     text-align: center;
@@ -89,6 +125,15 @@ nav li a {
 nav li a:hover,
 footer a:hover {
     color: #14a51e;
+} */
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tab-desk {
+    display: none;
 }
 
 /* Style rules for main content */
@@ -108,16 +153,17 @@ main p a {
     font-weight: 700;
 }
 
-main p a:hover {
+/* main p a:hover {
     color: #0d2f0c;
-}
+} */
 
 #photo-about {
-    float: left;
+
     overflow: hidden;
     width: 20em;
     height: 20em;
     margin: 2% 8%;
+    border-radius: 3%;
 }
 
 #photo-about img {
@@ -127,12 +173,12 @@ main p a:hover {
 }
 
 #sec {
-    padding: 0 30%;
+    padding: 0 10%;
 }
 
 #section1 {
-    width: 40%;
-    margin: 4% 8%;
+    width: 80%;
+    margin: 4% 10%;
     float: left;
 }
 
@@ -145,8 +191,10 @@ main p a:hover {
 }
 
 #contact {
+    padding: 0 2%;
     margin: 0 0;
 }
+
 
 #contact p {
     word-spacing: 0.8em;
@@ -156,6 +204,49 @@ main p a:hover {
 
 #contact p iframe {
     margin: 2em 0 0 0;
+    max-width: 100%;
+}
+
+.container {
+    height: fit-content;
+}
+
+#projects {
+    height: 400%;
+    width: 80%;
+    margin: 0 6%;
+}
+
+.project {
+    color: white;
+
+    width: 100%;
+    padding: 4% 4%;
+    margin: 8% 1%;
+    border-radius: 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+.project p {
+    display: block;
+
+}
+
+/* .project:hover p {
+    opacity: 100%;
+} */
+
+#Vr {
+    background-image: url("../images/Vr.jpg");
+
+}
+
+#cbs {
+    background-image: url("../images/Multimedia-cbs.png");
+
 }
 
 
