@@ -153,6 +153,10 @@ main p a {
     font-weight: 700;
 }
 
+h5 {
+    text-align: center;
+}
+
 /* main p a:hover {
     color: #0d2f0c;
 } */
@@ -162,7 +166,7 @@ main p a {
     overflow: hidden;
     width: 20em;
     height: 20em;
-    margin: 2% 8%;
+    margin: 2% auto;
     border-radius: 3%;
 }
 
@@ -191,7 +195,7 @@ main p a {
 }
 
 #contact {
-    padding: 0 2%;
+    padding: 5% 2%;
     margin: 0 0;
 }
 
@@ -199,7 +203,7 @@ main p a {
 #contact p {
     word-spacing: 0.8em;
     line-height: 2em;
-    margin: 2em 0 10em 0;
+    margin: 2em 0 2em 0;
 }
 
 #contact p iframe {
